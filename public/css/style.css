@@ -1,0 +1,311 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.navbar-nav {
+    margin-left: 70%; /* Move the navbar items to the right */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 15px; /* Add some spacing between links */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* About Section Styles */
+#about-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.text-center p{
+    margin-top: 35px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Registration Styles */
+.register {
+    background: linear-gradient(to right, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+    color: #fff;
+}
+
+.maxl .radio-inline span{
+    color: #383d41;
+}
+
+.register-left {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.register-left input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    animation: mover 1s infinite alternate;
+}
+
+.register-left p {
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+
+.register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link {
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+/* About Section Styles */
+#about-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.about-text {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #007bff; /* Add a border with primary color */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    transition: transform 0.3s ease-in-out; /* Add a subtle transition effect */
+}
+
+.about-text:hover {
+    transform: scale(1.05); /* Scale up on hover for a subtle interactive effect */
+}
+
+.about-text h1 {
+    font-size: 24px;
+    color: #007bff; /* Set title color to primary color */
+}
+
+.about-text p {
+    font-size: 16px;
+    color: #495057; /* Set text color */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Add a subtle transition effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.container {
+    max-width: 1200px; /* Set max-width for better responsiveness */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 0 0 32%; /* Adjust column width */
+}
+
+.border-right {
+    border-right: 2px solid #007bff; /* Add a border to the right of each column with primary color */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+
+    .border-right {
+        border-right: none; /* Remove right border on smaller screens */
+    }
+}
+
+/* .container {
+    max-width: 400px;
+    margin-top: 50px;
+} */
+
+.my-5 {
+    margin-bottom: 50px;
+}
+
+.login-title {
+    font-size: 30px;
+    color: #007bff; /* Primary color for emphasis */
+}
+
+.account-wall {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: rgb(114, 108, 108);
+}
+
+.form-signin {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.form-control {
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.checkbox {
+    font-size: 14px;
+}
+
+.need-help,
+.new-account {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.need-help:hover,
+.new-account:hover {
+    text-decoration: underline;
+}
